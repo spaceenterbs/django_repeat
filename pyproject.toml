@@ -3,12 +3,15 @@ name = "django-repeat"
 version = "0.1.0"
 description = ""
 authors = ["enterspacebs <anotherhell48@gmail.com>"]
+license = "MIT"
 readme = "README.md"
 packages = [{include = "django_repeat"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-django = "^4.2.2"
+django = "^4.2.4"
+djangorestframework = "^3.14.0"
+
 
 [build-system]
 requires = ["poetry-core"]
