@@ -34,7 +34,10 @@ THIRD_PARTY_APPS = [
     "rest_framework",
 ]
 
-CUSTOM_APPS = []
+CUSTOM_APPS = [
+    "users.apps.UsersConfig",
+    "posts.apps.PostsConfig",
+]
 
 SYSTEM_APPS = [
     "django.contrib.admin",
