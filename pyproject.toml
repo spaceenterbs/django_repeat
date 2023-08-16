@@ -9,8 +9,6 @@ packages = [{include = "django_repeat"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "^4.2.2"
-djangorestframework = "^3.14.0"
-
 
 [build-system]
 requires = ["poetry-core"]
